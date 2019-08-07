@@ -11,7 +11,7 @@ const io = require('socket.io')(server);
 
 dotenv.config();
 
-mongoose.connect(`mongodb+srv://${process.env.DBUSER}:${process.env.DBPASSWORD}@cluster0-f7vpb.gcp.mongodb.net/test?retryWrites=true&w=majority`, {
+mongoose.connect(`mongodb+srv://${process.env.DBUSER}:${process.env.DBPASSWORD}@cluster0-cvd76.mongodb.net/test?retryWrites=true&w=majority`, {
   useNewUrlParser: true,
 });
 
